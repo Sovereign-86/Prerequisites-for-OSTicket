@@ -34,70 +34,7 @@ Install PHP
 
 install Microsoft Visual C++ Redistributable
 
-Navigation Menu
-Joeljjoseph1998
-osticket-prereqs
- 
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Owner avatar
-osticket-prereqs
-Public
-Joeljjoseph1998/osticket-prereqs
-
-t
-Name		
-Joeljjoseph1998
-Joeljjoseph1998
-Update README.md
-bc37ae9
- · 
-2 years ago
-README.md
-Update README.md
-2 years ago
-Repository files navigation
-README
-
-
-How to Install osTicket
-
-This is an easy guide to installing a help desk ticketing system called osTicket.
-Files You Need to Download
-
-Download Now 📁
-
-Software & Technologies Used
-
-Windows 10 (Build 19044)
-
-Microsoft Azure (Virtual Machines)
-
-Remote Desktop (RDP)
-
-Internet Information Services (IIS)
-
-Prerequisites
-
-Create a Virtual Machine in Azure
-
-Install osTicket v1.15.8
-
-Install HeidiSQL
-
-Install MySQL
-
-Install PHP
-
-install Microsoft Visual C++ Redistributable
-
-Steps
+# Steps
 
 Create Virtual Machine in Azure
 
