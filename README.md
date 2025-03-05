@@ -7,8 +7,8 @@
 This is an easy guide to installing a help desk ticketing system called osTicket.
 Files You Need to Download
 
-# Required Program
-Download Now 📁
+# Required Downloads
+### [Download Now](https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 📁
 
 # Software & Technologies Used
 
