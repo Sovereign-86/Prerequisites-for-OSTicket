@@ -162,5 +162,104 @@ Enable: php_intl.dll.
 Enable: php_opcache.dll:
 
 
+# Refresh the osTicket site in your browser, observe the changes
+
+
+![image](https://github.com/user-attachments/assets/d2d2660e-efb0-40f5-b0e1-6a7a91694b3b)
+
+
+# Rename
+
+
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php.
+
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+
+
+![image](https://github.com/user-attachments/assets/9d6617ec-0b28-4f69-970d-9a45cf5c6d15)
+
+
+# Assign Permissions: ost-config.php
+
+
+Disable inheritance -> Remove All:
+
+
+![image](https://github.com/user-attachments/assets/41e9a3a9-32dc-4b7c-9c05-b4cf8d5c1aef)
+
+
+New Permissions -> Everyone -> All:
+
+
+![image](https://github.com/user-attachments/assets/2c9c22fd-eeed-4175-ae46-5f30bba9ccbe)
+
+![image](https://github.com/user-attachments/assets/190bfdf8-ef53-4699-a03f-60e921e3dc7f)
+
+
+# Continue Setting up osTicket in the browser (click Continue)
+
+
+Name Helpdesk.
+
+Default email (receives email from customers):
+
+
+![image](https://github.com/user-attachments/assets/762e50db-f4fd-4ad0-817b-d6923e0a613b)
+
+![image](https://github.com/user-attachments/assets/b4f4aec9-7527-4668-9e9d-ccb32e900bb4)
+
+
+# Download and Install HeidiSQL
+
+
+![image](https://github.com/user-attachments/assets/bdffa30a-36fe-4662-99fc-40efe5eda71d)
+
+Create a new session, root/Password1.
+
+Connect to the session:
+
+![image](https://github.com/user-attachments/assets/69b9c97a-a5a8-4f50-8ebc-c72691e95405)
+
+Create a database called “osTicket”:
+
+![image](https://github.com/user-attachments/assets/28317521-6330-43c1-9856-2ac171412ca6)
+
+
+# Continue Setting up osTicket in the browser
+
+
+MySQL Database: osTicket
+
+MySQL Username: root
+
+MySQL Password: Password1:
+
+![image](https://github.com/user-attachments/assets/c872af44-eb14-43ff-855a-ae5c099da303)
+
+Click “Install Now!”
+
+Congratulations, hopefully it is installed with no errors!
+
+![image](https://github.com/user-attachments/assets/83d2fbec-1d07-4a86-a776-2061c953b088)
+
+
+# Clean up
+
+
+Delete: C:\inetpub\wwwroot\osTicket\setup:
+
+![image](https://github.com/user-attachments/assets/ebef0ece-2cb2-461e-830f-6f7a20674caf)
+
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+
+![image](https://github.com/user-attachments/assets/04af2e28-638b-4600-8530-7a52253b77da)
+
+
+# Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+
+
+![image](https://github.com/user-attachments/assets/fe9507eb-be85-4b1e-804d-60c1af8509f2)
+
+
 
 
