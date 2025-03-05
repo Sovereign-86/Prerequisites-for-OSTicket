@@ -255,7 +255,9 @@ Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-conf
 ![image](https://github.com/user-attachments/assets/04af2e28-638b-4600-8530-7a52253b77da)
 
 
-# Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+# Login to the osTicket Admin Panel 
+
+(http://localhost/osTicket/scp/login.php)
 
 
 ![image](https://github.com/user-attachments/assets/fe9507eb-be85-4b1e-804d-60c1af8509f2)
