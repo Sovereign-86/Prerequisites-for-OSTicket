@@ -67,13 +67,100 @@ Once clicked, find the "Internet Information Services" expand it and then expand
 ![image](https://github.com/user-attachments/assets/7f9e6db7-46cc-48fb-8488-d59c12f4fef5)
 
 
-Install PHP Manager
+# Install PHP Manager
 
 
 Download the PHP manager file, and agree with all the terms. We've now downloaded the PHP manager into our operating system.
 
 
 ![image](https://github.com/user-attachments/assets/638bc7f6-e478-4e70-8612-614d0e12b332)
+
+
+# Install Rewrite Module
+
+
+Download the Rewrite Module file, agree with all the terms and it should now be installed onto the Computer.
+
+
+![image](https://github.com/user-attachments/assets/32d67220-1e1b-405c-9d3c-632fbbd41b99)
+
+
+# CREATE DIRECTORY C:\PHP
+
+
+Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP". Download php-7.3.8-nts-Win32-VC15-x86.zip from Files You Need to Download, Extract it by going to where you download the file, Right-click the PHP 7.3.8 file and press extract to the PHP Folder you just created.
+
+
+![image](https://github.com/user-attachments/assets/e7e06e8a-2c66-47a7-a887-37592c7439b6)
+
+
+VC_REDIST DOWNLOAD
+
+Download and install VC_Redist, Agree with any terms and agreements and finish installing.
+
+
+![image](https://github.com/user-attachments/assets/ab74dac6-042b-46ad-9230-cdcae8910dab)
+
+
+DOWNLOAD MySQL
+
+Download and install MySQL, Agree with any terms and agreements up until you get to the password portion. Here you can create a username and password for the database that you'll be using to store the Ticket Information used in osTicket.
+
+
+![image](https://github.com/user-attachments/assets/e2e4d2e1-2781-43bb-827e-81e4b4138fb6)
+
+![image](https://github.com/user-attachments/assets/5d4a9277-4241-4e7c-9d3c-a5da80ad6277)
+
+
+# Install osTicket v1.15.8
+
+
+Download osTicket (download from within lab files: link).
+
+Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:
+
+
+![image](https://github.com/user-attachments/assets/adf95fe7-3174-4721-811b-fc3eff0c8864)
+
+![image](https://github.com/user-attachments/assets/9abc1965-77ee-40e2-b55c-42d454d4d404)
+
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
+
+![image](https://github.com/user-attachments/assets/2b418e3e-8987-4efb-ab2e-972e16703b96)
+
+
+# Reload IIS (Open IIS, Stop and Start the server)
+
+
+Go to sites -> Default -> osTicket:
+
+
+
+
+![image](https://github.com/user-attachments/assets/5b69fe06-d155-4e75-8840-6882eb3e178d)
+
+On the right, click “Browse *:80”:
+
+![image](https://github.com/user-attachments/assets/9748ac48-39bd-4f76-95ee-65a00c461273)
+
+Enable Extensions in IIS: Note that some extensions are not enabled
+
+
+Go back to IIS, sites -> Default -> osTicket.
+
+Double-click PHP Manager:
+
+
+![image](https://github.com/user-attachments/assets/a3a887cd-d9f4-4571-a1d1-123ec6b88159)
+
+Click “Enable or disable an extension”.
+
+Enable: php_imap.dll.
+
+Enable: php_intl.dll.
+
+Enable: php_opcache.dll:
+
 
 
 
